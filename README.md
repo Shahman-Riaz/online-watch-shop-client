@@ -1,4 +1,4 @@
-# Online Watch Shop (E-commerce) MERN Stack Web Application
+# Online Watch Shop *(E-commerce) MERN Stack Web Application*
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
