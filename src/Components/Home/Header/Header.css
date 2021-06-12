@@ -1,0 +1,34 @@
+.header{
+    background: url('../../Images/bg.jpg') center center;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+.header .search-box{
+    position: relative;
+    top: 20%;
+}
+.search-box input {
+    padding: 10px;
+    background-color: rgba(6, 6, 77, 0.884);
+    color: white;
+}
+.search-box .search-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 25px;
+}
+.search-box input:focus{
+    background-color: rgba(6, 6, 77, 0.884);
+    color: white;
+}
+.header .form-control{
+    border-radius: 25px;
+    border:none;
+    padding-left: 20px;
+}

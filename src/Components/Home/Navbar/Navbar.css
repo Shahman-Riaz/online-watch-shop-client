@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+.nav-section{
+    height: 10vh;
+    background-color: rgba(56, 91, 245, 0.507);
+}
+.nav-link{
+    color: white !important;
+}
+.logo{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 3rem;
+}
+.logo:hover{
+    color: white;
+}
+
+.bottom-style:hover{
+    border-bottom: 2px solid white;
+}
