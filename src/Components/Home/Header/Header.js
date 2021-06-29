@@ -1,21 +1,23 @@
 import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import BodyServices from '../BodyServices/BodyServices';
+import Navbar from '../Navbar/Navbar';
 import './Header.css'
+import Clock from 'react-live-clock';
 
 
 const Header = () => {
-    const searchWatches = useHistory()
-    const [searchQuery , setSearchQuery] = useState(null)
-    const getQuery = e => setSearchQuery(e.target.value);
     return (
-        <section className="header" id="navbar">
-            <div className="search-box col-6 my-5 mx-auto">
-                    <input id="query" onChange={getQuery} type="text" className="form-control" placeholder="Search your favorite brand" />
-                    <Link to={"/search="+searchQuery}>
-                        <button onClick={() => searchWatches.push('/searchedWatches')} className="btn btn-light search-btn">Search</button>
-                    </Link>
-            </div>
+        <section className="header" id="header">
+            <Navbar />
+           <Link to='/#bodyWatchCollection'>
+                <div className="header-text-container text-white text-center p-2">
+                    <h3>
+                        <Clock format="HH:mm:ss a" interval={1000} ticking={true} />
+                    </h3>
+                    <h1 className="header-tex-color ">Online Watch Shop</h1>
+                    <h4 className="">Grab Your Choice</h4>
+                </div>
+           </Link>
         </section>
     );
 };

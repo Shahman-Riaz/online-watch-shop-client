@@ -1,16 +1,36 @@
-footer img{
-    height: 60px;
+.footer-container{
+    background-color: #323233;
+    overflow-x: hidden;
 }
-footer  {
-    color: #ffffff;
-    display: block;
-    line-height: 2;
+.footer-link-container{
+    padding-top: 30px;
 }
-footer .footer-link{
+.logo-icon{
+    height: 40%;
+    width: 40%;
+}
+
+footer li {
+    line-height: 35px;
+}
+footer div {
+    justify-content: space-evenly;
+}
+.subscribe-btn:hover{
+    background-color: rgba(36, 35, 35, 0.747);
     color: white;
+}
+
+.footer-link{
+    color: rgba(255, 255, 255, 0.808);
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
 }
 footer .footer-link:hover{
-    color: #307ff5;
+    color: white;
+    padding-left: 7px;
 }
+.footer-bottom{
+    background-color: #3b3b3d;
+}
+

@@ -1,0 +1,67 @@
+.login-container{
+    background: url('../Images/loginBg.jpg') center center;
+    height: 100vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.home-back-button{
+    background-color: rgba(48, 45, 45, 0.849);
+    color: white;
+    border: 1px solid rgba(48, 45, 45, 0.849);
+    margin: 3px;
+}
+.home-back-button:hover{
+    background-color: white;
+    color: rgba(48, 45, 45, 0.849);
+}
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-form-container{
+    background-color: rgba(207, 197, 197, 0.685);
+    border-radius: 20px;
+}
+.stylish-btn{
+    background: linear-gradient(30deg, #182f5af5, #453a5c, #242425a8);
+    color: white;
+    font-weight: 500;
+}
+.stylish-btn:hover{
+    background: linear-gradient(30deg, #182f5af5, #453a5c, #242425a8);
+    color: white;
+    font-weight: 500;
+}
+.stylish-btn2{
+    background: linear-gradient(330deg, #274170f5, #453a5c, #242425a8);
+    color: white;
+    font-weight: 500;
+}
+.stylish-btn2:hover{
+    background: linear-gradient(330deg, #274170f5, #453a5c, #242425a8);
+    color: white;
+    font-weight: 500;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #000;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .20em;
+  }

@@ -1,11 +1,25 @@
 .header{
     background: url('../../Images/bg.jpg') center center;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
+    overflow-x: hidden;
+}
+
+.header-tex-color{
+    font-size: 30px;
+    font-weight: 900;
+}
+.header-text-container{
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+    background-color: rgba(92, 87, 87, 0.685);
+    width: fit-content;
+    border-radius: 10px;
 }
 .header .search-box{
     position: relative;
