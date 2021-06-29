@@ -1,32 +1,42 @@
-# Online Watch Shop *(E-commerce) MERN Stack Web Application*
+# **Online Watch Shop**
+**Full Stack (MERN Stack) Single Page Web Application**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<a  href="">
+<img  width="100%"  height="100%"  src=""/>
+</a>
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+## Features
+**Cooking Chef** is a (MERN Stack) Full-stack single-page Chef providing service type web application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Login system with firebase, private routes and dashboard for admins and users .
+- Users can order services, monitor their orderlist and give a review, delete or update the review.
+- Admin can add services, update and delete services.
+- Admin can add new admins and can change the status of orderlist.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### Front-end Technology : 
+- **React.js**
+- **React Router,**
+- **React Bootstrap**
+- **Css3**
+- **Firebase Authentication**
+- **Email.js**
+- 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Back-end Technology : 
+- **Node**
+- **Express**
+- **MongoDB**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Website Link :` []()
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<hr/>
 
+<<<<<<< HEAD
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
@@ -70,3 +80,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # online-watch-shop-client
 # online-watch-shop
+=======
+**[Back-end Repository]()**
+>>>>>>> 41e67187c100c6ce3f45336008259180dfabe41a

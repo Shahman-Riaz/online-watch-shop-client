@@ -10,12 +10,12 @@ const Header = () => {
         <section className="header" id="header">
             <Navbar />
            <Link to='/#bodyWatchCollection'>
-                <div className="header-text-container text-white text-center p-2">
+                <div className="header-text-container text-center p-2">
                     <h3>
                         <Clock format="HH:mm:ss a" interval={1000} ticking={true} />
                     </h3>
-                    <h1 className="header-tex-color ">Online Watch Shop</h1>
-                    <h4 className="">Grab Your Choice</h4>
+                    <h1 className="header-tex-color">Online Watch Shop</h1>
+                    <h4>Grab Your Choice</h4>
                 </div>
            </Link>
         </section>

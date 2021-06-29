@@ -1,7 +1,7 @@
 .login-container{
     background: url('../Images/loginBg.jpg') center center;
     height: 100vh;
-    background-size:initial;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 .home-back-button{

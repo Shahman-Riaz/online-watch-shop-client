@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Login.css";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useHistory, useLocation } from "react-router-dom";
 import firebase from "firebase/app";
 import "firebase/auth";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,6 +10,7 @@ import {
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
 import firebaseConfig from "./firebase.config";
+import { UserContext } from "../../App";
 
 // <FontAwesomeIcon icon={faHome} />
 
@@ -23,34 +24,34 @@ if (!firebase.apps.length) {
 
 
 const Login = () => {
-//   const {
-//     register,
-//     handleSubmit,
-//     formState: { errors },
-//   } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
-//   const onSubmit = (data) => {
-//     const adminData = {
-//       adminName: data.adminName,
-//       adminEmail: data.adminEmail,
-//     };
+  const onSubmit = (data) => {
+    const adminData = {
+      adminName: data.adminName,
+      adminEmail: data.adminEmail,
+    };
 
-//     const url = ``;
-//     fetch(url, {
-//       method: "POST",
-//       headers: {
-//         "content-type": "application/json",
-//       },
-//       body: JSON.stringify(adminData),
-//     }).then((res) => {
-//       alert("Admin Added Successfully");
-//       window.location.reload();
-//     });
-//   };
+    const url = ``;
+    fetch(url, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(adminData),
+    }).then((res) => {
+      alert("Admin Added Successfully");
+      window.location.reload();
+    });
+  };
 
-  const [chooseLogin, setChooseLogin] = useState(true)
+    const [chooseLogin, setChooseLogin] = useState(true)
  
-    const [loggedInUser, setLoggedInUser] = useContext(LoginContext)
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     let history = useHistory();
     let location = useLocation();
     let { from } = location.state || { from: { pathname: "/" } };
@@ -95,6 +96,9 @@ const Login = () => {
     });
   }
 
+
+  console.log(loggedInUser.email)
+
   return (
                 <main className="login-container">
                 <div>
@@ -104,7 +108,9 @@ const Login = () => {
                     </button>
                     </Link>
                 </div>
-                {
+               {
+                   (!loggedInUser.email) && <div>
+                        {
                     (!chooseLogin && <div className="signup-container">
                     <div className="signup-form-container p-4">
                     <h2 className="text-center p-1">Create New Account / <button onClick={() => setChooseLogin(true)} type="submit" className="btn home-back-button">
@@ -263,6 +269,9 @@ const Login = () => {
                     </div>
                 </div>
                 )}
+                   </div>
+               }
+               {loggedInUser.email && <h3>Congrats, {loggedInUser.email}</h3>}
                 </main>
   );
 };

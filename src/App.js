@@ -18,7 +18,7 @@ function App() {
   const [selectedService, setSelectedService] = ([])
   return (
 
-  <UserContext.Provider value={{ loggedInUser, setLoggedInUser, isAdmin, setIsAdmin, selectedService, setSelectedService }}>
+  <UserContext.Provider value={ [loggedInUser, setLoggedInUser,isAdmin, setIsAdmin, selectedService, setSelectedService ]}>
       <Router>
         <Switch>
           <Route exact path="/">

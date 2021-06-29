@@ -20,6 +20,15 @@
     background-color: rgba(92, 87, 87, 0.685);
     width: fit-content;
     border-radius: 10px;
+    animation: lighting 1s infinite;
+    color: wheat;
+}
+.header-text-container h3{
+    font-weight: 700;
+}
+@keyframes lighting {
+    from {background-color: #06183C;}
+  to {background-color: rgba(0, 0, 0, 0.712);}
 }
 .header .search-box{
     position: relative;

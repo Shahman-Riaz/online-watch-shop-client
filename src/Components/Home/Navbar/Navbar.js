@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faCartArrowDown, faUserCircle } from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from "react-router-hash-link";
 import "./Navbar.css";
 import logo from '../../Images/logo.png'
+import { UserContext } from "../../../App";
 
 const Navbar = () => {
+  const [loggedInUser, setLoggedInUser] = useContext(UserContext)
   return (
       <nav class="navbar navbar-expand-lg top-navigation">
       <div class="container-fluid">
@@ -72,9 +74,9 @@ const Navbar = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fs-5" href="#">
+              <HashLink to="/#contact" class="nav-link text-white fs-5" href="#">
                 Contact
-              </a>
+              </HashLink>
             </li>
             <li class="nav-item px-3">
                 <form class="d-flex">
@@ -94,7 +96,7 @@ const Navbar = () => {
             <Link className="cart-container text-white"><FontAwesomeIcon className=" fs-2 cart-icon" icon={faCartArrowDown} /><sub className="fs-5 cart-text">3</sub></Link>
           </form>
            <button class="btn btn-light mx-3" type="submit">
-              <Link to="/login" className="cart-container text-dark"><FontAwesomeIcon className="text-secondary fs-5" icon={faUserCircle}/> Login/Signup</Link>
+              <Link to="/login" className="cart-container text-dark">{(loggedInUser.email?<img height="30" width="30" style={{borderRadius:'50%'}} src={loggedInUser.photoURL} />:<FontAwesomeIcon className="text-secondary fs-5" icon={faUserCircle}/>)} Login/Signup</Link>
             </button>
         </div>
       </div>

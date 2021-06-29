@@ -1,0 +1,20 @@
+.messageUs-container{
+    height: 100vh;
+}
+#contactUs-form{
+    color: black;
+    width: 50%;
+    margin: 1px auto;
+    border-radius: 15px;
+    padding: 20px; 
+    box-shadow: 0px 0px 20px 20px #e5e8ee;
+}
+
+.contactSection-headline{
+    color: #0F254E;
+    font-weight: 500;
+    
+}
+.form-label{
+    font-size: 18px;
+}
