@@ -1,7 +1,6 @@
-![Screenshot_1](https://user-images.githubusercontent.com/76748226/123743735-794f4480-d8cf-11eb-9e1c-0643d06bce94.png)
 # **Online Watch Shop**
 **Full Stack (MERN Stack) Single Page Web Application**
-
+![Screenshot_1](https://user-images.githubusercontent.com/76748226/123743735-794f4480-d8cf-11eb-9e1c-0643d06bce94.png)
 
 <a  href="">
 <img  width="100%"  height="100%"  src=""/>
