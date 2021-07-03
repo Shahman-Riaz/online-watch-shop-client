@@ -197,10 +197,10 @@ const Login = () => {
                         </div>
                     </form>
                     <div className="separator fs-5">or</div>
-                        <button type="submit" onClick={handleGoogleSignIn} className="stylish-btn2 btn m-2 w-100">
+                        <button type="submit" onClick={handleGoogleSignIn} className="stylish-btn2 btn my-3 w-100">
                         Continue with Google
                         </button>
-                        <button type="submit" onClick={handleFbSignIn} className="stylish-btn btn m-2 w-100">
+                        <button type="submit" onClick={handleFbSignIn} className="stylish-btn btn my-3 w-100">
                         Continue with Facebook
                         </button>
                         
@@ -260,10 +260,10 @@ const Login = () => {
                         </button>
                     </div>
                     <div className="separator fs-5">or</div>
-                    <button type="submit" onClick={handleGoogleSignIn} className="stylish-btn2 btn m-2 w-100">
+                    <button type="submit" onClick={handleGoogleSignIn} className="stylish-btn2 btn my-3 w-100">
                     Continue with Google
                     </button>
-                    <button type="submit" onClick={handleFbSignIn} className="stylish-btn btn m-2 w-100">
+                    <button type="submit" onClick={handleFbSignIn} className="stylish-btn btn my-3 w-100">
                     Continue with Facebook
                     </button>
                     </div>

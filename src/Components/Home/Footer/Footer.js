@@ -46,7 +46,7 @@ const Footer = () => {
                 </div>
                 <div className="col-md-2 py-5">
                             <ul className="list-unstyled">
-                                <li><Link className="footer-link"><FontAwesomeIcon icon={faFacebook} /> Facebook</Link></li>
+                                <li><Link className="footer-link"><FontAwesomeIcon className="animated-hover" icon={faFacebook} /> Facebook</Link></li>
                                 <li><Link className="footer-link"><FontAwesomeIcon icon={faInstagram} /> Instagram</Link></li>
                                 <li><Link className="footer-link"><FontAwesomeIcon icon={faYoutube} /> YouTube</Link></li>
                                 <li><Link className="footer-link"><FontAwesomeIcon icon={faTwitter} /> Twitter</Link></li>

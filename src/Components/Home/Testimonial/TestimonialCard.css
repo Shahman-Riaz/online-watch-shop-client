@@ -1,0 +1,14 @@
+.test-card{
+    border-radius: 8px;
+    text-align: justify;
+    max-width: 350px;
+    font-size: 18px;
+} 
+
+.test-card img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+.bodyServices-container{
+    min-height: 100vh;
+}
+.section-headline{
+    font-family: 'Big Shoulders Display', cursive;
+}
+.service-image{
+    height: 80%;
+    width: 80%;
+}
+
+.service-card:hover{
+    box-shadow: 0 0 10px rgba(186, 166, 221, 0.466);
+}

@@ -1,5 +1,5 @@
 .messageUs-container{
-    height: 100vh;
+    min-height: 100vh;
 }
 #contactUs-form{
     color: black;
@@ -7,13 +7,18 @@
     margin: 1px auto;
     border-radius: 15px;
     padding: 20px; 
-    box-shadow: 0px 0px 20px 20px #e5e8ee;
+    animation: boxShadow 6s infinite;
+}
+@keyframes boxShadow {
+    0%{box-shadow: 0px 0px 25px rgb(177, 195, 235)e;}
+  33% {box-shadow: 0px 0px 25px #dbaae9;}
+  66% {box-shadow: 0px 0px 25px rgb(177, 195, 235)e;}
+  100% {box-shadow: 0px 0px 25px #dbaae9;}
 }
 
 .contactSection-headline{
     color: #0F254E;
     font-weight: 500;
-    
 }
 .form-label{
     font-size: 18px;

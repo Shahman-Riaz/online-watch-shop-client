@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,700&display=swap');
 .top-navigation{
     background-color: rgba(99, 95, 95, 0.747);
 }
+.header-logo-name{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.hash-icon{
+    color: blue;
+    font-weight: 900;
+    font-size: 18px;
+    animation: coloring .5s infinite;
+}
 
+@keyframes coloring {
+    0%{color: blue;}
+    50%{color: white;}
+    100%{color: blue;}
+}
 .cart-icon{
     cursor: pointer;
 }

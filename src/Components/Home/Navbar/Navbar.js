@@ -12,11 +12,11 @@ const Navbar = () => {
   return (
       <nav class="navbar navbar-expand-lg top-navigation">
       <div class="container-fluid">
-        <Link class="navbar-brand text-white text-left" href="#">
-          <img height="15%" width="13%" src={logo} />
+        <Link class="navbar-brand text-white text-center" href="#">
+          <h1 className="header-logo-name fs-1">Online Watch Shop</h1>
         </Link>
         <button
-          class="navbar-toggler border border-light w-100"
+          class="navbar-toggler border border-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -24,14 +24,14 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon text-white"><FontAwesomeIcon className=" fs-2 cart-icon" icon={faBars} /></span>
+          <span class="navbar-toggler-icon text-white"></span>
         </button>
-        <div class="collapse navbar-collapse px-1" id="navbarSupportedContent">
-          <ul class="navbar-nav me-aut3 mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse px-4" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-white fs-5" aria-current="page" href="#">
+              <HashLink class="nav-link active text-white fs-5" aria-current="page" to="/#aboutUs">
                 About Us
-              </a>
+              </HashLink>
             </li>
             
             <li class="nav-item dropdown">
@@ -46,6 +46,11 @@ const Navbar = () => {
                 Brands
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <HashLink class="dropdown-item" to="/#allWatches">
+                  All Watches<span className="hash-icon">*</span>
+                  </HashLink>
+                </li>
                 <li>
                   <Link class="dropdown-item" to="/rolex">
                   ROLEX
@@ -69,9 +74,9 @@ const Navbar = () => {
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fs-5" href="#">
+              <HashLink class="nav-link text-white fs-5" to="/#testimonial">
                 Testimonial
-              </a>
+              </HashLink>
             </li>
             <li class="nav-item">
               <HashLink to="/#contact" class="nav-link text-white fs-5" href="#">
