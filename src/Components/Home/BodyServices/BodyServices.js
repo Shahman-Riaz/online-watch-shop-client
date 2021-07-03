@@ -44,7 +44,7 @@ const BodyServices = () => {
                             </div>
                             <div className="col-lg-4 col-md-4 col-sm-12 service-card p-5">
                                 <img className="service-image" src={oneDay} alt="" />
-                                <h4 className="text-center"><FontAwesomeIcon style={{color:'#BE0000'}} icon={faClock} /> Delivery in 24 hours</h4>
+                                <h4 className="text-center"><FontAwesomeIcon style={{color:'#BE0000'}} icon={faClock} /> Delivery Within 24 hours</h4>
                                 <p></p>
                             </div>
                        </div>

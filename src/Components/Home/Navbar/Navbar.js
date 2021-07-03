@@ -16,7 +16,7 @@ const Navbar = () => {
           <h1 className="header-logo-name fs-1">Online Watch Shop</h1>
         </Link>
         <button
-          class="navbar-toggler border border-light"
+          class="navbar-toggler border"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -24,7 +24,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon text-white"></span>
+          <span class="navbar-toggler-icon text-light"><FontAwesomeIcon className="" icon={faBars} /></span>
         </button>
         <div class="collapse navbar-collapse px-4" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
