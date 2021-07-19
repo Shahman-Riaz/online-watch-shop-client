@@ -22,8 +22,8 @@ const MessageUs = () => {
     }
 
     return (
-       <main className="messageUs-container my-4" id="contact">
-           <div className="contactMain-part mt-5 py-5 my-3 mb-5" id="contactUs">
+       <main className="messageUs-container row my-4" id="contact">
+           <div className="contactMain-part col-md-12 col-sm-12 mt-5 py-5 my-3 mb-5" id="contactUs">
             <div id="contactUs-form">
             <h1 className="text-center mt-3 mb-4"><span className=" contactSection-headline section-headline fs-1 stylish-font">Contact us</span></h1><hr/>
             <form className="contact-form" autoComplete autoCorrect onSubmit={sendEmail}>

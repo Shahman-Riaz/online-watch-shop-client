@@ -25,33 +25,30 @@ const BodyServices = () => {
     return (
         <section className="bodyServices-container my-5 p-3 container" id="aboutUs">
                 <div className="row">
-                        <div className="col-6 m-3">
+                        <div className="col-md-6 col-sm-12 m-3">
                                 <h1 className='section-headline fs-1'>Why you choose us</h1>
                             <p className="mt-3 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente eaque repellendus asperiores nisi! Architecto, praesentium eligendi consequatur inventore fuga eius totam officia adipisci. Nostrum quia soluta vel distinctio delectus!</p>
                         </div>
                     </div>
 
-                    <div className="row d-flex justify-content-between">
-                            <div className="col-lg-4 col-md-4 col-sm-12 service-card p-5">
+                    <div className="row d-flex my-4 py-3 justify-content-between">
+                            <div className="col-md-4 col-sm-12 service-card">
                                 <img className="service-image" src={quickHome} alt="" />
-                                <h4 className="text-center"><FontAwesomeIcon style={{color:'#D94167'}} icon={faTruck} /> Quick Home Delivery</h4>
-                                <p></p>
+                                <p className="text-center fs-5"><FontAwesomeIcon style={{color:'#D94167'}} icon={faTruck} /> Quick Home Delivery</p>
                             </div>
-                            <div className="col-lg-4 col-md-4 col-sm-12 service-card p-5">
+                            <div className="col-md-4 col-sm-12 service-card">
                                 <img className="service-image" src={offer} alt="" />
-                                <h4 className="text-center"><FontAwesomeIcon style={{color:'#FFB93F'}} icon={faSurprise} /> Weekly Super Cyclone Offer</h4>
-                                <p></p>
+                                <p className="text-center fs-5"><FontAwesomeIcon style={{color:'#FFB93F'}} icon={faSurprise} /> Weekly Super Cyclone Offer</p>
                             </div>
-                            <div className="col-lg-4 col-md-4 col-sm-12 service-card p-5">
+                            <div className="col-md-4 col-sm-12 service-card">
                                 <img className="service-image" src={oneDay} alt="" />
-                                <h4 className="text-center"><FontAwesomeIcon style={{color:'#BE0000'}} icon={faClock} /> Delivery Within 24 hours</h4>
-                                <p></p>
+                                <p className="text-center fs-5"><FontAwesomeIcon style={{color:'#BE0000'}} icon={faClock} /> Delivery Within 24 hours</p>
                             </div>
                        </div>
-                   <div className="mt-3 text-center">
-                   <button className="btn btn-danger" onClick={() => {
-                       history.push('/aboutUsMore')
-                   }}>More <FontAwesomeIcon icon={faArrowAltCircleRight} /></button>
+                   <div className="my-3 text-center">
+                    <button className="btn btn-danger" onClick={() => {history.push('/aboutUsMore')}}>
+                        More <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                    </button>
                    </div>
         </section>
     );

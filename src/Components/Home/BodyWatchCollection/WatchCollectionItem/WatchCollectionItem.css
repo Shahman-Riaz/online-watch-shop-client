@@ -1,0 +1,27 @@
+.card-img{ 
+    max-width: 400px;
+}
+
+.watch-cardLink{
+    text-decoration: none;
+}
+.watchCard-container .card-img{
+    transition: transform 2s ease;
+}
+.watchCard-container:hover .card-img{
+    transform: scale(1.1, 1.1);
+}
+.watchCard-container:hover .brand-name{
+    visibility: visible;
+}
+.brand-name{
+    text-align: right;
+    visibility: hidden;
+}
+
+.brand-name button {
+  border: none;
+  background-color: #BBA46C;
+  color: white;
+  border-radius: 25px;
+}

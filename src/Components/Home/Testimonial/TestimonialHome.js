@@ -21,7 +21,7 @@ const TestimonialHome = () => {
        <section  id="testimonial" className="testimonial-container py-5">
             <div className="container-fluid text-center">
             <h1 className="stylish-font section-headline fs-1" style={{color:"#414D87"}}>TESTIMONIAL</h1>
-            <h3 className="stylish-font mb-5">What Our Patients Say</h3>
+            <h3 className="stylish-font mb-5">What Our Customers Say</h3>
             <section className="row d-flex justify-content-around">
                 {
                     patients.map(patient => <TestimonialCard patient={patient} />)

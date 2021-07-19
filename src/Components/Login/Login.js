@@ -7,12 +7,10 @@ import "firebase/auth";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowAltCircleLeft,
-  faHome,
 } from "@fortawesome/free-solid-svg-icons";
 import firebaseConfig from "./firebase.config";
 import { UserContext } from "../../App";
 
-// <FontAwesomeIcon icon={faHome} />
 
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);

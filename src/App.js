@@ -9,6 +9,8 @@ import Body from './Components/Home/Body/Body';
 import Login from './Components/Login/Login';
 import Header from './Components/Home/Header/Header';
 import { createContext, useState } from 'react';
+import WatchByBrand from './Components/Home/BodyWatchCollection/WatchByBrand/WatchByBrand';
+import SingleWatch from './Components/Home/BodyWatchCollection/SingleWatch/SingleWatch';
 
 export const UserContext = createContext();
 
@@ -26,6 +28,14 @@ function App() {
           </Route>
           <Route path="/navbar">
             <Navbar />
+          </Route>
+          <Route path="/brand/:brandName">
+            <Navbar />
+            <WatchByBrand />
+          </Route>
+          <Route path="/watch/:watchId">
+            <Navbar />
+            <SingleWatch />
           </Route>
           <Route path="/login">
             <Login />
