@@ -117,7 +117,7 @@ const Navbar = () => {
                 className=" fs-2 cart-icon"
                 icon={faCartArrowDown}
               />
-              <sub className="fs-5 cart-text">3</sub>
+              <sub className="fs-6 cart-text">44</sub>
             </Link>
           </form>
           <button class="btn btn-light mx-3" type="submit">

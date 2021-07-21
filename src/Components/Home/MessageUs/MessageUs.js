@@ -39,7 +39,7 @@ const MessageUs = () => {
             </div>
             <div class="mb-3 w-100 m-auto">
                 <label for="exampleFormControlInput2" class="form-label">Phone : </label>
-                <input type="tel" pattern="[0]{1}[1]{1}[3,4,6,7,8,9]{1}[0-9]{8}" defaultValue="01" name="phone" class="form-control" id="exampleFormControlInput2" placeholder="It will be auto filled up automatically.."/>
+                <input type="tel" pattern="[0]{1}[1]{1}[3,4,6,7,8,9]{1}[0-9]{8}" defaultValue="01" name="phone" class="form-control" id="exampleFormControlInput2" placeholder="01**********"/>
             </div>
             <div class="mb-3 w-100 m-auto">
                     <label for="exampleFormControlTextarea1" class="form-label">Message* : </label>

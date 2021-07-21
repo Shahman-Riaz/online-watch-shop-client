@@ -10,7 +10,7 @@ const SingleWatch = (props) => {
     const {id, name, images, type, price, shortDescription, fullDescription} = singleWatch
 
     const [quantity, setQuantity] = useState(1);
-    const [selectedBigImg, setSelectedBigImg] = useState(null)
+    const [selectedBigImg, setSelectedBigImg] = useState(images[0])
     const [isSuccess, setIsSuccess] = useState(false);
     // const [preloaderVisibility, setPreloaderVisibility] = useState("block");
 
@@ -21,6 +21,8 @@ const SingleWatch = (props) => {
         setIsSuccess(true);
     }
     
+    
+
     if(isSuccess){
         setTimeout(() => setIsSuccess(false),1500)
     }
@@ -44,7 +46,7 @@ const SingleWatch = (props) => {
                 <div className="action d-flex align-items-center">
                     <button className="btn btn-danger btn-rounded mb-2" onClick={() => finalCartHandler(singleWatch)}><FontAwesomeIcon icon={faCartArrowDown} /> Add</button>
                     {isSuccess &&
-                     <p className="ml-3 success-mgs text-success"><FontAwesomeIcon icon={faCheckCircle} />  Item added to Cart</p>
+                     <p className="ml-3 p-1 success-mgs text-success"><FontAwesomeIcon icon={faCheckCircle} />  Watch added to Cart</p>
                      
                     }
                 </div>
