@@ -1,7 +1,7 @@
 # **Online Watch Shop**
-**Full Stack (MERN Stack) Single Page Web Application**<br>
+**Full Stack (MERN Stack) Single Page Web Application**<br> <hr/>
 ![Screenshot_1](https://user-images.githubusercontent.com/76748226/123743735-794f4480-d8cf-11eb-9e1c-0643d06bce94.png)
-### `Website Link :` [Online Watch Shop](https://online-watch-shop.netlify.app/)
+### `Live Website :` [Online Watch Shop](https://online-watch-shop.netlify.app/)
 
 ## About
 
@@ -20,10 +20,9 @@
 - **NPM Packages**
 - **React Router,**
 - **Bootstrap**
-- **Css**
 - **Firebase Authentication**
 - **Email.js**
-- 
+
 
 
 ### Back-end Technology : 
@@ -32,7 +31,12 @@
 - **MongoDB**
 - **Firebase**
 
-### `Website Link :` []()
 
-<hr/>
+### Hosting Technology :
+- **Netlify**
+- **GitHub**
+
+### `Server repo link :` []()
+
+
 
