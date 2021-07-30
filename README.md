@@ -1,11 +1,10 @@
 # **Online Watch Shop**
-**Full Stack (MERN Stack) Single Page Web Application**<br> <hr/>![watch](https://user-images.githubusercontent.com/76748226/127659142-117c6359-70b5-485c-b60b-65d24a3f814e.jpg)
+**Full Stack (MERN Stack) Single Page Web Application**<br> <hr/>
 ### `Live Website :` [Online Watch Shop](https://online-watch-shop.netlify.app/)
 
 ## About
 **Online Watch Shop** is a (MERN Stack) Full-stack single-page online watch selling e-commerce type web application.
-
-
+![watch](https://user-images.githubusercontent.com/76748226/127659142-117c6359-70b5-485c-b60b-65d24a3f814e.jpg)
 ## Features
 - Login systems with firebase(email+password, google, facebook)
 - private routes and dashboard for admins and users .
