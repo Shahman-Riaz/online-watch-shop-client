@@ -1,6 +1,5 @@
 # **Online Watch Shop**
-**Full Stack (MERN Stack) Single Page Web Application**<br> <hr/>
-![Screenshot_1](https://user-images.githubusercontent.com/76748226/123743735-794f4480-d8cf-11eb-9e1c-0643d06bce94.png)
+**Full Stack (MERN Stack) Single Page Web Application**<br> <hr/>![watch](https://user-images.githubusercontent.com/76748226/127659142-117c6359-70b5-485c-b60b-65d24a3f814e.jpg)
 ### `Live Website :` [Online Watch Shop](https://online-watch-shop.netlify.app/)
 
 ## About
